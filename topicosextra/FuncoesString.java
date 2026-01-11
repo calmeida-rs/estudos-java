@@ -36,6 +36,6 @@ public class FuncoesString {
         for (String percorre: frase){
             System.out.println(percorre);
         }
-
+        //adicionando um comentário para teste
     }
 }
