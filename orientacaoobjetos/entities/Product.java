@@ -5,6 +5,15 @@ public class Product {
     public double price;
     public int quantity;
 
+    /*
+    Adicionando um metodo construtor no meu objeto, tem como objetivo fazer com que na sua instanciação, ele seja obrigado a receber valores.
+     */
+    public Product(String name, double price, int quantity){
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+    }
+
     public double totalValeInStock(){
         return price * quantity;
     }
