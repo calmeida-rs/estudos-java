@@ -1,6 +1,6 @@
 package curso.nelioalves.orientacaoobjetos.application;
 
-import curso.nelioalves.orientacaoobjetos.entities.Product;
+import curso.nelioalves.orientacaoobjetos.domain.Product;
 
 import java.util.Locale;
 import java.util.Scanner;

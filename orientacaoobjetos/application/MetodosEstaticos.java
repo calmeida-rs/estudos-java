@@ -1,6 +1,6 @@
 package curso.nelioalves.orientacaoobjetos.application;
 
-import curso.nelioalves.orientacaoobjetos.entities.Calculator;
+import curso.nelioalves.orientacaoobjetos.domain.Calculator;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
 package curso.nelioalves.orientacaoobjetos.application;
 
-import curso.nelioalves.orientacaoobjetos.entities.Triangle;
+import curso.nelioalves.orientacaoobjetos.domain.Triangle;
 
 import java.util.Locale;
 import java.util.Scanner;

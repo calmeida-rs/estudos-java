@@ -1,6 +1,6 @@
 package curso.nelioalves.orientacaoobjetos.application;
 
-import curso.nelioalves.orientacaoobjetos.entities.Moeda;
+import curso.nelioalves.orientacaoobjetos.domain.Moeda;
 
 import java.util.Scanner;
 

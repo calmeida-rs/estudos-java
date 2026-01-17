@@ -1,4 +1,4 @@
-package curso.nelioalves.orientacaoobjetos.entities;
+package curso.nelioalves.orientacaoobjetos.domain;
 
 public class Product {
     private String name;
