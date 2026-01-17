@@ -11,6 +11,11 @@ public class Account {
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
+    //construtor simplificado adicionado
+    public Account(String name, int accountNumber){
+        this.name = name;
+        this.accountNumber = accountNumber;
+    }
 
     //métodos de acesso.
     public String getName(){

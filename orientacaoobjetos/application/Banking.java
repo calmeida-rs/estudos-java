@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class Banking {
     static void main(String[] args) {
+        Account account;
         int accountNumber;
         String name;
         char response;
@@ -22,11 +23,10 @@ public class Banking {
         if(response == 'y'){
             System.out.println("Enter initial deposit value:");
             balance = sc.nextDouble();
-        } else if(response =='n'){
-            balance = 0;
+            account = new Account(name, accountNumber, balance);
+        } else{
+            account = new Account(name, accountNumber);
         }
-
-        Account account = new Account(name, accountNumber, balance);
         System.out.printf("Account data:%nAccount %d, Holder: %s, Balance: $%.2f%n", account.getAccountNumber(), account.getName(), account.getBalance());
 
         System.out.println("Enter a deposit value:");
